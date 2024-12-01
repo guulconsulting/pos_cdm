@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="point_of_sale_location.ProductInfoPopupFields" t-inherit="point_of_sale.ProductInfoPopup" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('product-details')]" position="inside">
+            <div class="detail">
+                <span class="label">Stock Location:</span>
+                <span class="value">
+                    <t t-out="props.product.location_name || 'No location specified'"/>
+                </span>
+            </div>
+        </xpath>
+    </t>
+</templates>

@@ -1,0 +1,17 @@
+.pos .product-info-popup {
+    .detail {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5rem 0;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #f0f0f0;
+
+        .label {
+            font-weight: bold;
+        }
+
+        .value {
+            text-align: right;
+        }
+    }
+}
